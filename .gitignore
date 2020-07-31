@@ -1,0 +1,86 @@
+# #####################
+# Maps
+# #####################
+world/
+tmp/
+luckperms/
+
+# #####################
+# Other dir
+# #####################
+players/
+
+# #####################
+# Logs
+# #####################
+logs/
+
+# #####################
+# Files under the root
+# #####################
+banned-ips.json
+banned-players.json
+ops.json
+usercache.json
+whitelist.json
+
+# #####################
+# Plugins
+# #####################
+
+server.properties
+
+run.bat
+
+runDev.bat
+
+.mixin.out/audit/mixin_implementation_report.txt
+
+config/astralsorcery/amulet_enchantments.cfg
+
+*.log
+
+paper.yml
+
+spigot.yml
+
+OpenComputersMod-1.7.4.153-lua53-native.64.so
+
+usernamecache.json
+
+wepif.yml
+
+
+config/brandon3055/CSG/Config.json
+
+config/IC2.ini
+
+backups/
+
+local/ftbutilities/backups.json
+
+crash-reports/
+
+Illegal_Clients/
+
+orebfuscator_cache/
+
+config/infernalmobs.cfg
+
+
+
+libraries/red/mohist/mappings/nms.srg
+
+
+
+libraries/
+
+config/skyclaims/data/
+config/huskycrates/storage/
+config/griefprevention/GlobalPlayerData/
+config/griefprevention/worlds/
+config/economylite/*.db
+config/pixelvip/vips.conf
+config/pixelvip/logs/
+
+.mixin.out/audit/mixin_implementation_report.csv

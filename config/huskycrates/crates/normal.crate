@@ -1,0 +1,796 @@
+normal {
+    free=false
+    hologram {
+        entityYOffset=0.0
+        lines=[
+            "&a普通抽奖箱",
+            "&a左键预览，右键抽奖"
+        ]
+    }
+    localKey {
+        id="minecraft:tripwire_hook"
+        name="&a普通抽奖箱钥匙"
+    }
+    messages {
+        rejectionNeedKey="&c你需要一把&a普通抽奖箱钥匙&c来开启这个抽奖箱!"
+    }
+    name="&a普通抽奖箱"
+    previewable=true
+    slots=[
+        {
+            chance=10.0
+            displayItem {
+                count=8
+                damage=0
+                id="minecraft:iron_ore"
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=8
+                damage=0
+                id="minecraft:gold_ore"
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=8
+                damage=0
+                id="minecraft:coal_ore"
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=8
+                damage=0
+                id="minecraft:lapis_ore"
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=8
+                damage=0
+                id="minecraft:diamond_ore"
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=4
+                damage=0
+                id="minecraft:redstone_ore"
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=4
+                damage=0
+                id="minecraft:emerald_ore"
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=5
+                damage=16
+                id="mysticalagriculture:crafting"
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=4
+                damage=0
+                id="mysticalagriculture:crafting"
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=2
+                damage=0
+                id="minecraft:slime_ball"
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=2
+                damage=0
+                id="minecraft:ender_pearl"
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=0
+                id="sky_orchards:sapling_sand"
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=0
+                id="sky_orchards:sapling_coal"
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=0
+                id="sky_orchards:sapling_clay"
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=0
+                id="sky_orchards:sapling_iron"
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=0
+                id="tcomplement:porcelain_tank"
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=0
+                id="tcomplement:porcelain_melter"
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=0
+                id="tcomplement:porcelain_alloy_tank"
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=0
+                id="tcomplement:porcelain_casting"
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=1
+                id="tcomplement:porcelain_casting"
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=0
+                id="statues:blockbabyzombiestatuet5"
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=0
+                id="statues:blockcowstatuet5"
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=0
+                id="statues:blockcreeperstatuet5"
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=0
+                id="statues:blocksheepstatuelimet5"
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=0
+                id="ironjetpacks:stone_jetpack"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=0
+                id="appliedenergistics2:storage_cell_1k"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=0
+                id="appliedenergistics2:fluid_storage_cell_1k"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=2
+                damage=0
+                id="torchmaster:mega_torch"
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=2
+                damage=0
+                id="ceramics:faucet"
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=0
+                durability=1000
+                id="mysticalagriculture:prudentium_sword"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=0
+                durability=1000
+                id="mysticalagriculture:prudentium_pickaxe"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=0
+                durability=1000
+                id="mysticalagriculture:prudentium_shovel"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=0
+                durability=1000
+                id="mysticalagriculture:prudentium_axe"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=0
+                durability=1000
+                id="mysticalagriculture:prudentium_hoe"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=0
+                durability=1000
+                id="mysticalagriculture:prudentium_bow"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=0
+                durability=1000
+                id="mysticalagriculture:prudentium_sickle"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+		{
+            chance=10.0
+            displayItem {
+                count=1
+                damage=0
+                durability=1000
+                id="mysticalagriculture:prudentium_sickle"
+                nbt {
+                    ForgeCaps {
+                        "astralsorcery:cap_item_amulet_holder" {
+                            "AS_Amulet_HolderLeast"=-5455365560383908110
+                            "AS_Amulet_HolderMost"=-7542200189454566349
+                        }
+                    }
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=0
+                durability=440
+                id="mysticalagriculture:prudentium_helmet"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=0
+                durability=640
+                id="mysticalagriculture:prudentium_chestplate"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=0
+                durability=600
+                id="mysticalagriculture:prudentium_leggings"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=0
+                durability=520
+                id="mysticalagriculture:prudentium_boots"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=0
+                id="tp:cobblegen_block"
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=4
+                damage=0
+                id="rustic:fertile_soil"
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=4
+                damage=1
+                id="inspirations:mulch"
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=2
+                damage=1
+                id="bonsaitrees:bonsaipot"
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=2
+                damage=0
+                id="bonsaitrees:bonsaipot"
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=0
+                durability=450
+                id="inspirations:bone_crook"
+                nbt {
+                    ForgeCaps {}
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=4
+                damage=0
+                id="cyclicmagic:glowing_chorus"
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+		{
+            chance=10.0
+            displayItem {
+                count=1
+                damage=0
+                id="minecraft:tripwire_hook"
+                name="&a普通抽奖箱钥匙"
+                nbt {
+                    HCKEYID="LOCALKEY_normal"
+                    HCKEYUUID="4bbbc055-80a7-4867-9ea5-7e9626bfa4c9"
+                    display {
+                        Name="§a普通抽奖箱钥匙"
+                    }
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        },
+        {
+            chance=10.0
+            displayItem {
+                count=1
+                damage=0
+                id="minecraft:tripwire_hook"
+                name="&b中级抽奖箱钥匙"
+                nbt {
+                    HCKEYID="LOCALKEY_advance"
+                    HCKEYUUID=d747e09e-67dc-4aef-9ea9-3d82b0c1c827
+                    display {
+                        Name="§b中级抽奖箱钥匙"
+                    }
+                }
+            }
+            rewards=[
+                {
+                    type=item
+                }
+            ]
+        }
+    ]
+	effects {
+        idle {
+            particles=[
+                {
+                    animationPreset=orbit
+                    color=[
+                        0,
+                        255,
+                        0
+                    ]
+                    type="minecraft:redstone_dust"
+                },
+                {
+                    animationPreset=counterorbit
+                    color=[
+                        255,
+                        0,
+                        255
+                    ]
+                    type="minecraft:redstone_dust"
+                }
+            ]
+        }
+        reject {
+            duration=16
+            loop=false
+            resetOnTimeout=true
+            particles=[
+                {
+                    type="minecraft:redstone_dust"
+                    amount=10
+                    animationCode="var spin = time/3; x=Math.sin(spin + num)*0.7; y=(time/8) - 0.5; z=Math.cos(spin + num)*0.7;"
+                }
+            ]
+        }
+    }
+    useLocalKey=true
+    viewConfig {
+        tickDelayMultiplier=1.025
+        ticksToSelection=75
+        ticksToSelectionVariance=5
+    }
+    viewType=spinner
+}

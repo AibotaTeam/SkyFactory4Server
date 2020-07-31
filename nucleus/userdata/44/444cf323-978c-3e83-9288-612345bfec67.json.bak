@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "fly": false,
+  "vanish": false,
+  "jailOnNextLogin": false,
+  "isFrozen": false,
+  "invulnerable": false,
+  "lastKnownName": "Test",
+  "lastLogin": 1596158343673,
+  "lastLogout": 1596161244919,
+  "lastIP": "/174.3.234.120",
+  "firstJoin": 1596135675696,
+  "startedFirstJoin": false,
+  "lastLocation": {
+    "x": 767.5,
+    "y": 65.0,
+    "z": 255.5,
+    "rotx": 0.0,
+    "roty": 0.0,
+    "rotz": 0.0,
+    "world": "1189f3ac-d4bc-4039-8f18-9fe993914dbe"
+  },
+  "warnings": [],
+  "notes": [],
+  "mail": []
+}

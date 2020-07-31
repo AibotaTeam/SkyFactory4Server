@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "jailOnNextLogin": false,
+  "warnings": [],
+  "mail": [],
+  "lastKnownName": "BiShop_Ma",
+  "lastLocation": {
+    "x": 1027.0,
+    "y": 73.0,
+    "z": 3.0,
+    "rotx": 0.0,
+    "roty": 0.0,
+    "rotz": 0.0,
+    "world": "1189f3ac-d4bc-4039-8f18-9fe993914dbe"
+  },
+  "lastLogin": 1596172253402,
+  "lastLogout": 1596172297330,
+  "lastIP": "/174.3.234.120",
+  "firstJoin": 1596172253402,
+  "startedFirstJoin": false,
+  "fly": false,
+  "invulnerable": false,
+  "vanish": false,
+  "notes": []
+}
