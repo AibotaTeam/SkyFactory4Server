@@ -1,0 +1,43 @@
+#礼包名请不要超过10个字符
+初级会员:
+#礼包名
+  money: 15
+  #售价（元）
+  commands:
+    - 'addvip {0} vip1 31'
+  #出售后执行的命令
+  #注: 上方指令支持PlaceholderAPI变量
+  desc: '购买初级会员'
+  #显示在网页上的礼包信息
+高级会员:
+  money: 30
+  commands:
+    - 'addvip {0} vip2 31'
+  desc: '购买高级会员'
+  
+至尊会员:
+  money: 50
+  commands:
+    - 'addvip {0} vip3 31'
+  desc: '购买至尊会员'
+
+5把普通钥匙:
+  money: 10
+  commands:
+    - 'hc key normal {0} 5'
+  desc: '购买5把普通钥匙'
+5把中级钥匙:
+  money: 15
+  commands:
+    - 'hc key advance {0} 5'
+  desc: '购买5把中级钥匙'
+5把高级钥匙:
+  money: 25
+  commands:
+    - 'hc key super {0} 5'
+  desc: '购买5把高级钥匙'
+5把终极钥匙:
+  money: 40
+  commands:
+    - 'hc key ultimate {0} 5'
+  desc: '购买5把终极钥匙'

@@ -84,3 +84,13 @@ config/pixelvip/vips.conf
 config/pixelvip/logs/
 
 .mixin.out/audit/mixin_implementation_report.csv
+
+nucleus/userdata/
+
+nucleus/worlddata/
+
+nucleus/nucleususercache.json.bak
+
+*.tmp
+
+config/virtualchest/record.mv.db
