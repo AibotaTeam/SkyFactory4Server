@@ -1,0 +1,178 @@
+{
+  "kits": {
+    "至尊会员每周礼包": {
+      "stacks": [
+        {
+          "ContentVersion": 2,
+          "ItemType": "inspirations:mulch",
+          "Count": 2,
+          "UnsafeDamage": 4
+        },
+        {
+          "ContentVersion": 2,
+          "ItemType": "mysticalagriculture:crafting",
+          "Count": 8,
+          "UnsafeDamage": 2
+        },
+        {
+          "ContentVersion": 2,
+          "ItemType": "minecraft:emerald",
+          "Count": 4,
+          "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 2,
+          "ItemType": "minecraft:diamond",
+          "Count": 16,
+          "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 2,
+          "ItemType": "minecraft:tripwire_hook",
+          "Count": 1,
+          "UnsafeDamage": 0,
+          "UnsafeData": {
+            "HCKEYUUID": "6a19a62a-9fcd-4268-b56d-92f14aa26b08",
+            "display": {
+              "Name": "§4终级抽奖箱钥匙"
+            },
+            "HCKEYID": "LOCALKEY_ultimate"
+          }
+        }
+      ],
+      "interval": 604800,
+      "cost": 0.0,
+      "autoRedeem": false,
+      "oneTime": false,
+      "displayMessage": true,
+      "ignoresPermission": false,
+      "hidden": false,
+      "commands": [],
+      "firstJoin": false
+    },
+    "初级会员每周礼包": {
+      "stacks": [
+        {
+          "ContentVersion": 2,
+          "ItemType": "minecraft:gold_ore",
+          "Count": 16,
+          "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 2,
+          "ItemType": "minecraft:iron_ore",
+          "Count": 16,
+          "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 2,
+          "ItemType": "inspirations:mulch",
+          "Count": 2,
+          "UnsafeDamage": 2
+        },
+        {
+          "ContentVersion": 2,
+          "ItemType": "minecraft:diamond",
+          "Count": 4,
+          "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 2,
+          "ItemType": "mysticalagriculture:crafting",
+          "Count": 8,
+          "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 2,
+          "ItemType": "minecraft:tripwire_hook",
+          "Count": 1,
+          "UnsafeDamage": 0,
+          "UnsafeData": {
+            "HCKEYUUID": "b50e2a56-f717-4113-80e4-b29d2ccc4ae4",
+            "display": {
+              "Name": "§b中级抽奖箱钥匙"
+            },
+            "HCKEYID": "LOCALKEY_advance"
+          }
+        }
+      ],
+      "interval": 604800,
+      "cost": 0.0,
+      "autoRedeem": false,
+      "oneTime": false,
+      "displayMessage": true,
+      "ignoresPermission": false,
+      "hidden": false,
+      "commands": [],
+      "firstJoin": false
+    },
+    "高级会员每周礼包": {
+      "stacks": [
+        {
+          "ContentVersion": 2,
+          "ItemType": "appliedenergistics2:storage_cell_16k",
+          "Count": 1,
+          "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 2,
+          "ItemType": "appliedenergistics2:fluid_storage_cell_16k",
+          "Count": 1,
+          "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 2,
+          "ItemType": "inspirations:mulch",
+          "Count": 2,
+          "UnsafeDamage": 3
+        },
+        {
+          "ContentVersion": 2,
+          "ItemType": "nuclearcraft:solar_panel_advanced",
+          "Count": 1,
+          "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 2,
+          "ItemType": "mysticalagriculture:crafting",
+          "Count": 8,
+          "UnsafeDamage": 1
+        },
+        {
+          "ContentVersion": 2,
+          "ItemType": "minecraft:emerald",
+          "Count": 2,
+          "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 2,
+          "ItemType": "minecraft:diamond",
+          "Count": 8,
+          "UnsafeDamage": 0
+        },
+        {
+          "ContentVersion": 2,
+          "ItemType": "minecraft:tripwire_hook",
+          "Count": 1,
+          "UnsafeDamage": 0,
+          "UnsafeData": {
+            "HCKEYUUID": "d0ca2586-4ff9-4583-a46f-e5f46fe0f337",
+            "display": {
+              "Name": "§5高级抽奖箱钥匙"
+            },
+            "HCKEYID": "LOCALKEY_super"
+          }
+        }
+      ],
+      "interval": 604800,
+      "cost": 0.0,
+      "autoRedeem": false,
+      "oneTime": false,
+      "displayMessage": true,
+      "ignoresPermission": false,
+      "hidden": false,
+      "commands": [],
+      "firstJoin": false
+    }
+  }
+}

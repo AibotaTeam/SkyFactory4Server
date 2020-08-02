@@ -94,3 +94,5 @@ nucleus/nucleususercache.json.bak
 *.tmp
 
 config/virtualchest/record.mv.db
+
+nucleus/general.json
