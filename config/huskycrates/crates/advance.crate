@@ -59,7 +59,7 @@ advance {
         {
             chance=10.0
             displayItem {
-                count=8
+                count=16
                 damage=0
                 id="minecraft:redstone_ore"
             }
@@ -124,7 +124,7 @@ advance {
         {
             chance=10.0
             displayItem {
-                count=16
+                count=8
                 damage=0
                 id="minecraft:diamond_ore"
             }

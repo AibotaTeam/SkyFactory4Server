@@ -59,7 +59,7 @@ super {
         {
             chance=10.0
             displayItem {
-                count=16
+                count=32
                 damage=0
                 id="minecraft:redstone_ore"
             }
@@ -124,7 +124,7 @@ super {
         {
             chance=10.0
             displayItem {
-                count=32
+                count=16
                 damage=0
                 id="minecraft:diamond_ore"
             }

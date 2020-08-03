@@ -72,7 +72,7 @@ normal {
         {
             chance=10.0
             displayItem {
-                count=8
+                count=4
                 damage=0
                 id="minecraft:diamond_ore"
             }
@@ -85,7 +85,7 @@ normal {
         {
             chance=10.0
             displayItem {
-                count=4
+                count=8
                 damage=0
                 id="minecraft:redstone_ore"
             }
