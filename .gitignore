@@ -96,3 +96,5 @@ nucleus/nucleususercache.json.bak
 config/virtualchest/record.mv.db
 
 nucleus/general.json
+
+config/UniversalMarket/universalmarket.db
