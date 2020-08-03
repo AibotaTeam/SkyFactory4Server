@@ -1,0 +1,52 @@
+# |- 是换行用的
+#留空就不显示信息
+#
+#使用命令的提示
+COMMAND_VEXRMB: |-  #需要权限vexrmb.command
+  欢迎使用PixelPay
+  /vexrmb pay <支付方式> <支付金额> - 充值
+  /vexrmb kit <支付方式> <礼包名称> - 礼包充值
+  /vexrmb check - 如果你没有到账可以使用这个命令
+COMMAND_VEXRMB_PAY: |-  #需要权限vexrmb.command.pay
+  /vexrmb pay
+  /vexrmb pay <支付方式> <支付金额> - 点券充值
+COMMAND_VEXRMB_KIT: |-  #需要权限vexrmb.command.kit
+  /vexrmb kit
+  /vexrmb kit <支付方式> <礼包名字> - 礼包模式
+
+COMMAND_VEXRMB_CHECK: "开始检查已支付订单"  #需要权限vexrmb.command.check 
+#上面的统一可以给 vexrmb.command 和 vexrmb.command.*
+
+
+#下面的不要开放给玩家使用 它们在主线程执行 可能会造成服务器卡顿 只在调整插件的时候使用
+COMMAND_VEXRMB_UPLOAD: "正在将礼包内容更改应用到网站" #需要权限 vexrmb.admin.command.upload
+
+#建议使用重启代替重载 重载可能会有问题
+COMMAND_VEXRMB_RELOAD: "正在开始重载" #需要权限 vexrmb.admin.command.reload
+
+#命令失败的提示 
+COMMAND_KIT_NULL: "找不到礼包啊"
+COMMAND_NOT_PLAYER: "这条命令不能在控制台执行"
+COMMAND_MONEY_LESS: "你最少要充值1元"
+COMMAND_PAY_NOT_CLOSE: "你无法在开启一个充值,请先完成支付"
+COMMAND_VEXRMB_CHECK_DELAY: "冷却时间未达到"
+
+#支付相关的提示
+PAY_ORDER_CREATE: "正在创建订单"
+PAY_ORDER_CREATE_SUCCESS: "订单创建成功"
+PAY_ORDER_CREATE_FAILED: "订单创建失败"
+PAY_QRCODE_CREATE: "正在创建二维码"
+PAY_QRCODE_CREATE_SUCCESS: "二维码创建成功"
+PAY_QRCODE_CREATE_FAILED: "二维码获取失败"
+
+PAY_STATR_EVENT: "支付开始"
+PAY_CLOSE_EVENT: "支付结束"
+PAY_SUCCESS_EVENT: "&a支付成功" #成功也会触发结束 他们是继承关系 成功会比结束先触发
+
+PAY_KIT_SHIP: "&a你购买的礼包已到账"
+PAY_MONEY_SHIP: "&a充值的金额已到账"  #接下来就交给命令处理了
+
+PAYINT_DROP_EVENT: "&c你丢弃了地图 支付结束"  #如果不要就删除这一行 因为丢弃也会触发结束事件 会在结束事件之前
+PAYINT_DEATH_EVENT: "&c你死掉了 支付结束"
+PAYINT_INTERACT_EVENT: "&c正在支付中,无法进行交互，&a按q放弃支付"  #包括很多 交互相关的 破坏放置 开箱子 等等等等
+PAYINT_SLOT_EVENT: "你不能切换到其它格子" #如果不要就去掉吧 它好像有问题 会触发两次
