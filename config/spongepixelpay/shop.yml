@@ -41,3 +41,18 @@
   commands:
     - 'hc key ultimate {0} 5'
   desc: '购买5把终极钥匙'
+1万金币:
+  money: 10
+  commands:
+    - 'eco add {0} 10000'
+  desc: '购买1万金币'
+3万金币:
+  money: 25
+  commands:
+    - 'eco add {0} 30000'
+  desc: '购买3万金币'
+10万金币:
+  money: 80
+  commands:
+    - 'eco add {0} 100000'
+  desc: '购买10万金币'
