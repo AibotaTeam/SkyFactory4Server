@@ -41,12 +41,12 @@ PAY_QRCODE_CREATE_FAILED: "二维码获取失败"
 
 PAY_STATR_EVENT: "支付开始"
 PAY_CLOSE_EVENT: "支付结束"
-PAY_SUCCESS_EVENT: "&a支付成功" #成功也会触发结束 他们是继承关系 成功会比结束先触发
+PAY_SUCCESS_EVENT: "§a支付成功" #成功也会触发结束 他们是继承关系 成功会比结束先触发
 
-PAY_KIT_SHIP: "&a你购买的礼包已到账"
-PAY_MONEY_SHIP: "&a充值的金额已到账"  #接下来就交给命令处理了
+PAY_KIT_SHIP: "§a你购买的礼包已到账"
+PAY_MONEY_SHIP: "§a充值的金额已到账"  #接下来就交给命令处理了
 
-PAYINT_DROP_EVENT: "&c你丢弃了地图 支付结束"  #如果不要就删除这一行 因为丢弃也会触发结束事件 会在结束事件之前
-PAYINT_DEATH_EVENT: "&c你死掉了 支付结束"
-PAYINT_INTERACT_EVENT: "&c正在支付中,无法进行交互，&a按q放弃支付"  #包括很多 交互相关的 破坏放置 开箱子 等等等等
+PAYINT_DROP_EVENT: "§c你丢弃了地图 支付结束"  #如果不要就删除这一行 因为丢弃也会触发结束事件 会在结束事件之前
+PAYINT_DEATH_EVENT: "§c你死掉了 支付结束"
+PAYINT_INTERACT_EVENT: "§c正在支付中,无法进行交互，§a按q放弃支付"  #包括很多 交互相关的 破坏放置 开箱子 等等等等
 PAYINT_SLOT_EVENT: "你不能切换到其它格子" #如果不要就去掉吧 它好像有问题 会触发两次
