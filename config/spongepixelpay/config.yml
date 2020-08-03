@@ -38,7 +38,7 @@ payway:
 #注意{0}和{1}是变量，跟费率无关！千万别傻乎乎的填成{10} {100}！
 commands:
   #给予玩家对应的点券,充多少给多少
-  - 'points give {0} {1}'
+  - 'eco add {0} {1}'
 #指令示范
 #给予玩家对应的钻石,充多少给多少 [删除#号启用,不删除则不启用]
 #- 'give {0} 264 {1}'
@@ -54,8 +54,7 @@ commands:
 #{1}代表金额
 #{2}代表充值方式
 openCommands:
-  - 'say {0} 请打开{2}&f扫码充值'
-  - 'title {0} title 请打开{2}&f扫码充值'
+  - 'title {0} title ["",{"text":"\u8bf7\u6253\u5f00","bold":true,"color":"gold"},{"text":"{2}","bold":true},{"text":"\u626b\u7801\u5145\u503c","bold":true,"color":"gold"}]'
   #当打开二维码地图时执行的指令(支持PlaceholderAPI变量)
 
 #自定义支付地图的物品名称及描述 然而并没有用
