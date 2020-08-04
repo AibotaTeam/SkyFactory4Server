@@ -766,7 +766,8 @@ ultimate {
             }
             rewards=[
                 {
-                    type=item
+                    type=servercommand
+					data="hc key normal %p 1"
                 }
             ]
         },
@@ -787,7 +788,8 @@ ultimate {
             }
             rewards=[
                 {
-                    type=item
+                    type=servercommand
+					data="hc key advance %p 1"
                 }
             ]
         },
@@ -808,7 +810,8 @@ ultimate {
             }
             rewards=[
                 {
-                    type=item
+                    type=servercommand
+					data="hc key super %p 1"
                 }
             ]
         },
@@ -829,7 +832,8 @@ ultimate {
             }
             rewards=[
                 {
-                    type=item
+                    type=servercommand
+					data="hc key ultimate %p 1"
                 }
             ]
         }

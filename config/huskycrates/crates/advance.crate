@@ -762,7 +762,8 @@ advance {
             }
             rewards=[
                 {
-                    type=item
+                    type=servercommand
+					data="hc key normal %p 1"
                 }
             ]
         },
@@ -783,7 +784,8 @@ advance {
             }
             rewards=[
                 {
-                    type=item
+                    type=servercommand
+					data="hc key advance %p 1"
                 }
             ]
         },
@@ -804,7 +806,8 @@ advance {
             }
             rewards=[
                 {
-                    type=item
+                    type=servercommand
+					data="hc key super %p 1"
                 }
             ]
         }

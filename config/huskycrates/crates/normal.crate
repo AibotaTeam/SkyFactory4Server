@@ -724,7 +724,8 @@ normal {
             }
             rewards=[
                 {
-                    type=item
+                    type=servercommand
+					data="hc key normal %p 1"
                 }
             ]
         },
@@ -745,7 +746,8 @@ normal {
             }
             rewards=[
                 {
-                    type=item
+                    type=servercommand
+					data="hc key advance %p 1"
                 }
             ]
         }
